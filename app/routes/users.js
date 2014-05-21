@@ -16,6 +16,6 @@ exports.login = (req, res)=>{
       req.session.userId = null;
     }
 
-    res.redirect('/');
+    res.redirect('/orders');
   });
 };

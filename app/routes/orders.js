@@ -11,3 +11,8 @@ exports.new = (req, res)=>{
     });
   });
 };
+
+exports.create = (req, res)=>{
+  console.log('user id');
+  console.log(req.session.userId);
+};
